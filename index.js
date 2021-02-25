@@ -29,7 +29,7 @@ function writeCssTag(params) {
   document.getElementsByTagName("body")[0].style.color =
     params.get("color") || "black";
   document.getElementsByTagName("body")[0].style["font-size"] = `${
-    (params.get("size") || 1) * 10
+    (params.get("size") || 8) * 10
   }px`;
 }
 
