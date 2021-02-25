@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.9.0",
+    "regenerator-runtime": "^0.13.7",
+    "whatwg-fetch": "^3.6.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "serve": "parcel fpl.html"
+  },
+  "browserslist": [
+    "dead"
+  ]
+}
