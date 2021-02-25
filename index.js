@@ -1,6 +1,12 @@
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 import axios from "axios";
+import * as Sentry from "@sentry/browser";
+
+Sentry.init({
+  dsn:
+    "https://de6deb1db67748989fc0c5e54b1ded5b@o155723.ingest.sentry.io/5652741",
+});
 
 async function getPlayerCount(queue) {
   let resp;
@@ -20,8 +26,11 @@ async function getPlayerCount(queue) {
 }
 
 function writeCssTag(params) {
-    document.getElementsByTagName("body")[0].style.color = params.get("color") || "black";
-    document.getElementsByTagName("body")[0].style['font-size'] = `${(params.get("size") || 1) * 10}px`;
+  document.getElementsByTagName("body")[0].style.color =
+    params.get("color") || "black";
+  document.getElementsByTagName("body")[0].style["font-size"] = `${
+    (params.get("size") || 1) * 10
+  }px`;
 }
 
 async function main() {
