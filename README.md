@@ -2,7 +2,7 @@
 
 1) Add a browser source to your OBS sources   
    ![add-browser-source](img/fpl-queue-step-1.png)
-2) Add one of the below URLs
+2) Add one of the below URLs   
    NA:   
    ```
    https://danlamanna.github.io/fpl.html?queue=na&color=pink&size=40
