@@ -17,10 +17,10 @@
    ![change-size-color](img/fpl-queue-step-2.png)
    NA:   
    ```
-   https://danlamanna.github.io/fpl.html?queue=na&color=blue&size=40
+   https://danlamanna.github.io/fpl.html?queue=na&color=pink&size=40
    ```
     
    EU:   
    ```
-   https://danlamanna.github.io/fpl.html?queue=eu&color=blue&size=40
+   https://danlamanna.github.io/fpl.html?queue=eu&color=pink&size=40
    ```
