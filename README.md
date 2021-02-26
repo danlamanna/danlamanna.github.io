@@ -12,10 +12,8 @@
    ```
    https://danlamanna.github.io/fpl.html?queue=eu
    ```
-   
-2) Adjust size, reposition, etc   
 
-3) Tweak text color/size by tweaking the URL, e.g.   
+2) Tweak text color/size by tweaking the URL, e.g.   
    ![change-size-color](img/fpl-queue-step-2.png)
    NA:   
    ```
